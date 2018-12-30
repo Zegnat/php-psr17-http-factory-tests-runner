@@ -5,6 +5,7 @@
     },
     "scripts": {
         "test": [
+            "phpunit -c aidphp-http/phpunit.xml.dist || true",
             "phpunit -c berlioz-http-message/phpunit.xml.dist || true",
             "phpunit -c bulldog-http-factory-guzzle/phpunit.xml.dist || true",
             "phpunit -c bulldog-http-factory-zend-diactoros/phpunit.xml.dist || true",
@@ -14,14 +15,17 @@
             "phpunit -c http-interop-http-factory-guzzle/phpunit.xml.dist || true",
             "phpunit -c http-interop-http-factory-slim/phpunit.xml.dist || true",
             "phpunit -c nyholm-psr7/phpunit.xml.dist || true",
+            "phpunit -c rancoud-http/phpunit.xml.dist || true",
             "phpunit -c sunrise-http-factory/phpunit.xml.dist || true",
             "phpunit -c tuupola-http-factory-guzzle/phpunit.xml.dist || true",
             "phpunit -c tuupola-http-factory-nyholm/phpunit.xml.dist || true",
             "phpunit -c tuupola-http-factory-slim/phpunit.xml.dist || true",
             "phpunit -c tuupola-http-factory-zend-diactoros/phpunit.xml.dist || true",
+            "phpunit -c viserio-http-factory/phpunit.xml.dist || true",
             "phpunit -c zendframework-zend-diactoros/phpunit.xml.dist || true"
         ],
         "post-install-cmd": [
+            "@composer install --no-dev --no-suggest --working-dir aidphp-http",
             "@composer install --no-dev --no-suggest --working-dir berlioz-http-message",
             "@composer install --no-dev --no-suggest --working-dir bulldog-http-factory-guzzle",
             "@composer install --no-dev --no-suggest --working-dir bulldog-http-factory-zend-diactoros",
@@ -31,14 +35,17 @@
             "@composer install --no-dev --no-suggest --working-dir http-interop-http-factory-guzzle",
             "@composer install --no-dev --no-suggest --working-dir http-interop-http-factory-slim",
             "@composer install --no-dev --no-suggest --working-dir nyholm-psr7",
+            "@composer install --no-dev --no-suggest --working-dir rancoud-http",
             "@composer install --no-dev --no-suggest --working-dir sunrise-http-factory",
             "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle",
             "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-nyholm",
             "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
             "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
+            "@composer install --no-dev --no-suggest --working-dir viserio-http-factory",
             "@composer install --no-dev --no-suggest --working-dir zendframework-zend-diactoros"
         ],
         "post-update-cmd": [
+            "@composer update --no-dev --no-suggest --working-dir aidphp-http",
             "@composer update --no-dev --no-suggest --working-dir berlioz-http-message",
             "@composer update --no-dev --no-suggest --working-dir bulldog-http-factory-guzzle",
             "@composer update --no-dev --no-suggest --working-dir bulldog-http-factory-zend-diactoros",
@@ -48,11 +55,13 @@
             "@composer update --no-dev --no-suggest --working-dir http-interop-http-factory-guzzle",
             "@composer update --no-dev --no-suggest --working-dir http-interop-http-factory-slim",
             "@composer update --no-dev --no-suggest --working-dir nyholm-psr7",
+            "@composer update --no-dev --no-suggest --working-dir rancoud-http",
             "@composer update --no-dev --no-suggest --working-dir sunrise-http-factory",
             "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle",
             "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-nyholm",
             "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
             "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
+            "@composer update --no-dev --no-suggest --working-dir viserio-http-factory",
             "@composer update --no-dev --no-suggest --working-dir zendframework-zend-diactoros"
         ]
     }

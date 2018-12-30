@@ -1,0 +1,10 @@
+{
+    "require": {
+        "viserio/http-factory": "1.0.x-dev"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "vendor-dir": ""
+    }
+}

@@ -18,7 +18,10 @@ The same is true for testing, where the root test script is set to run PHPUnit f
 
 ## Special cases
 
-* berlioz/http-message does not have a stable release. Using `dev-develop`.
+* berlioz/http-message, aidphp/http, and viserio/http-factory do not have stable releases. Using `dev-develop` for the first two, `1.0.x-dev` for the latter.
 * chillerlan/php-httpinterface does not include factories in its latest stable release, no matter what Packagist might make you think. Using `dev-develop`.
 * tuupola/http-factory and bulldog/http-factory require external PSR-7 implementations. They are installed once per supported PSR-7 implementation.
 * slim/http is currently not included as it requires special instantiation of the factories.
+* aidphp/http provides only 3 out of the 6 factories.
+* devop-core/http, sheychen/colis, and vaibhavpandeyvpz/sandesh are currently not included as they seem to be built against http-interop/http-factory.
+* narrowspark/framework is currently not included as it is marked as abandoned.
