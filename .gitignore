@@ -1,44 +1,59 @@
 vendor
 
-nyholm-psr7/*
-!nyholm-psr7/composer.json
-!nyholm-psr7/composer.lock
-!nyholm-psr7/phpunit.xml.dist
-
-zendframework-zend-diactoros/*
-!zendframework-zend-diactoros/composer.json
-!zendframework-zend-diactoros/composer.lock
-!zendframework-zend-diactoros/phpunit.xml.dist
+aidphp-http/*
+!aidphp-http/composer.json
+!aidphp-http/composer.lock
+!aidphp-http/phpunit.xml.dist
 
 berlioz-http-message/*
 !berlioz-http-message/composer.json
 !berlioz-http-message/composer.lock
 !berlioz-http-message/phpunit.xml.dist
 
-http-interop-http-factory-slim/*
-!http-interop-http-factory-slim/composer.json
-!http-interop-http-factory-slim/composer.lock
-!http-interop-http-factory-slim/phpunit.xml.dist
+bulldog-http-factory-guzzle/*
+!bulldog-http-factory-guzzle/composer.json
+!bulldog-http-factory-guzzle/composer.lock
+!bulldog-http-factory-guzzle/phpunit.xml.dist
 
-http-interop-http-factory-guzzle/*
-!http-interop-http-factory-guzzle/composer.json
-!http-interop-http-factory-guzzle/composer.lock
-!http-interop-http-factory-guzzle/phpunit.xml.dist
+bulldog-http-factory-zend-diactoros/*
+!bulldog-http-factory-zend-diactoros/composer.json
+!bulldog-http-factory-zend-diactoros/composer.lock
+!bulldog-http-factory-zend-diactoros/phpunit.xml.dist
 
-http-interop-http-factory-diactoros/*
-!http-interop-http-factory-diactoros/composer.json
-!http-interop-http-factory-diactoros/composer.lock
-!http-interop-http-factory-diactoros/phpunit.xml.dist
+chillerlan-php-httpinterface/*
+!chillerlan-php-httpinterface/composer.json
+!chillerlan-php-httpinterface/composer.lock
+!chillerlan-php-httpinterface/phpunit.xml.dist
 
 chiron-http/*
 !chiron-http/composer.json
 !chiron-http/composer.lock
 !chiron-http/phpunit.xml.dist
 
-chillerlan-php-httpinterface/*
-!chillerlan-php-httpinterface/composer.json
-!chillerlan-php-httpinterface/composer.lock
-!chillerlan-php-httpinterface/phpunit.xml.dist
+http-interop-http-factory-diactoros/*
+!http-interop-http-factory-diactoros/composer.json
+!http-interop-http-factory-diactoros/composer.lock
+!http-interop-http-factory-diactoros/phpunit.xml.dist
+
+http-interop-http-factory-guzzle/*
+!http-interop-http-factory-guzzle/composer.json
+!http-interop-http-factory-guzzle/composer.lock
+!http-interop-http-factory-guzzle/phpunit.xml.dist
+
+http-interop-http-factory-slim/*
+!http-interop-http-factory-slim/composer.json
+!http-interop-http-factory-slim/composer.lock
+!http-interop-http-factory-slim/phpunit.xml.dist
+
+nyholm-psr7/*
+!nyholm-psr7/composer.json
+!nyholm-psr7/composer.lock
+!nyholm-psr7/phpunit.xml.dist
+
+rancoud-http/*
+!rancoud-http/composer.json
+!rancoud-http/composer.lock
+!rancoud-http/phpunit.xml.dist
 
 sunrise-http-factory/*
 !sunrise-http-factory/composer.json
@@ -65,27 +80,12 @@ tuupola-http-factory-zend-diactoros/*
 !tuupola-http-factory-zend-diactoros/composer.lock
 !tuupola-http-factory-zend-diactoros/phpunit.xml.dist
 
-bulldog-http-factory-guzzle/*
-!bulldog-http-factory-guzzle/composer.json
-!bulldog-http-factory-guzzle/composer.lock
-!bulldog-http-factory-guzzle/phpunit.xml.dist
-
-bulldog-http-factory-zend-diactoros/*
-!bulldog-http-factory-zend-diactoros/composer.json
-!bulldog-http-factory-zend-diactoros/composer.lock
-!bulldog-http-factory-zend-diactoros/phpunit.xml.dist
-
-aidphp-http/*
-!aidphp-http/composer.json
-!aidphp-http/composer.lock
-!aidphp-http/phpunit.xml.dist
-
-rancoud-http/*
-!rancoud-http/composer.json
-!rancoud-http/composer.lock
-!rancoud-http/phpunit.xml.dist
-
 viserio-http-factory/*
 !viserio-http-factory/composer.json
 !viserio-http-factory/composer.lock
 !viserio-http-factory/phpunit.xml.dist
+
+zendframework-zend-diactoros/*
+!zendframework-zend-diactoros/composer.json
+!zendframework-zend-diactoros/composer.lock
+!zendframework-zend-diactoros/phpunit.xml.dist
