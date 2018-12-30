@@ -25,3 +25,95 @@ The same is true for testing, where the root test script is set to run PHPUnit f
 * aidphp/http provides only 3 out of the 6 factories.
 * devop-core/http, sheychen/colis, and vaibhavpandeyvpz/sandesh are currently not included as they seem to be built against http-interop/http-factory.
 * narrowspark/framework is currently not included as it is marked as abandoned.
+
+## Results
+
+### aidphp/http
+
+......S................SSSSSS.....SSSSSSS
+Tests: 41, Assertions: 68, Skipped: 14.
+
+### berlioz/http-message
+
+......EEEEE...........................E.F
+Tests: 41, Assertions: 93, Errors: 6, Failures: 1.
+
+### bulldog/http-factory (Guzzle)
+
+.....................................EE..
+Tests: 41, Assertions: 98, Errors: 2.
+
+### bulldog/http-factory (Diactoros)
+
+..................................EE.EE..
+Tests: 41, Assertions: 94, Errors: 4.
+
+### chillerlan/php-httpinterface
+
+.....................................EE..
+Tests: 41, Assertions: 98, Errors: 2.
+
+### chiron/http
+
+.........................................
+Tests: 41, Assertions: 106
+
+### http-interop/http-factory-diactoros
+
+.........................................
+Tests: 41, Assertions: 106
+
+### http-interop/http-factory-guzzle
+
+.........................................
+Tests: 41, Assertions: 106
+
+### http-interop/http-factory-slim
+
+.........................................
+Tests: 41, Assertions: 106
+
+### nyholm/psr7
+
+.........................................
+Tests: 41, Assertions: 106
+
+### rancoud/http
+
+.........................................
+Tests: 41, Assertions: 106
+
+### sunrise/http-factory
+
+.........................................
+Tests: 41, Assertions: 106
+
+### tuupola/http-factory (Guzzle)
+
+.........................................
+Tests: 41, Assertions: 106
+
+### tuupola/http-factory (Nyholm)
+
+.........................................
+Tests: 41, Assertions: 106
+
+### tuupola/http-factory (Slim)
+
+.........................................
+Tests: 41, Assertions: 106
+
+### tuupola/http-factory (Diactoros)
+
+.........................................
+Tests: 41, Assertions: 106
+
+### viserio/http-factory
+
+.........................................
+Tests: 41, Assertions: 106
+
+### zendframework/zend-diactoros
+
+.........................................
+Tests: 41, Assertions: 106
