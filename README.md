@@ -15,3 +15,9 @@ There is a folder for every implementation with its own `composer.json` file. Th
 The test suite and PHPUnit are installed once by the root `composer.json` in this directory. This root file also contains a number of scripts so all nested implementations are installed and updated whenever `composer install` and `composer update` are called in the root folder.
 
 The same is true for testing, where the root test script is set to run PHPUnit for each implementation.
+
+## Special cases
+
+* berlioz/http-message does not have a stable release. Using `dev-develop`.
+* chillerlan/php-httpinterface does not include factories in its latest stable release, no matter what Packagist might make you think. Using `dev-develop`.
+* tuupola/http-factory requires external PSR-7 implementations. It states support for zendframework/zend-diactoros, slim/slim, nyholm/psr7, and guzzle/psr7. It is installed once per support PSR-7 implementation. Using guzzlehttp/psr7 instead of guzzle/psr7.
