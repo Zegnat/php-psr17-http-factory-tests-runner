@@ -1,0 +1,8 @@
+{
+    "require": {
+        "http-interop/http-factory-slim": "^1.0"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

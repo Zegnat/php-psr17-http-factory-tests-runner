@@ -1,0 +1,8 @@
+{
+    "require": {
+        "http-interop/http-factory-diactoros": "^1.0"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

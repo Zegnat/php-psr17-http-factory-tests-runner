@@ -1,0 +1,8 @@
+{
+    "require": {
+        "sunrise/http-factory": "^1.0"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "require": {
+        "chiron/http": "^1.0"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

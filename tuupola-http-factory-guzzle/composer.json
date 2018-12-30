@@ -1,0 +1,9 @@
+{
+    "require": {
+        "tuupola/http-factory": "^1.0",
+        "guzzlehttp/psr7": "^1.5"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

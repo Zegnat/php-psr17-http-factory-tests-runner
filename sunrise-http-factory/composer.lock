@@ -1,0 +1,411 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1da4aa94d067b67ae3e17cf00e765b70",
+    "packages": [
+        {
+            "name": "psr/http-factory",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "378bfe27931ecc54ff824a20d6f6bfc303bbd04c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/378bfe27931ecc54ff824a20d6f6bfc303bbd04c",
+                "reference": "378bfe27931ecc54ff824a20d6f6bfc303bbd04c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2018-07-30T21:54:04+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "sunrise/http-factory",
+            "version": "v1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunrise-php/http-factory.git",
+                "reference": "a9b792accd0cf0a8546a94f24d8339bc9e47b5b4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunrise-php/http-factory/zipball/a9b792accd0cf0a8546a94f24d8339bc9e47b5b4",
+                "reference": "a9b792accd0cf0a8546a94f24d8339bc9e47b5b4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "sunrise/http-message": "^1.0.9",
+                "sunrise/http-server-request": "^1.0.5",
+                "sunrise/stream": "^1.0.15",
+                "sunrise/uri": "^1.0.19"
+            },
+            "provide": {
+                "psr/http-factory-implementation": "1.0"
+            },
+            "require-dev": {
+                "http-interop/http-factory-tests": "^0.5",
+                "phpunit/phpunit": "7.4.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sunrise\\Http\\Factory\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anatoly Fenric",
+                    "email": "anatoly@fenric.ru",
+                    "homepage": "https://anatoly.fenric.ru/"
+                }
+            ],
+            "description": "Sunrise HTTP factory",
+            "homepage": "https://github.com/sunrise-php/http-factory",
+            "keywords": [
+                "fenric",
+                "http",
+                "http-factory",
+                "psr-17",
+                "sunrise"
+            ],
+            "time": "2018-12-22T11:52:39+00:00"
+        },
+        {
+            "name": "sunrise/http-message",
+            "version": "v1.0.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunrise-php/http-message.git",
+                "reference": "8cdfa4c574f895ab43cf59248d201ada96f85ae3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunrise-php/http-message/zipball/8cdfa4c574f895ab43cf59248d201ada96f85ae3",
+                "reference": "8cdfa4c574f895ab43cf59248d201ada96f85ae3",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0",
+                "sunrise/stream": "^1.0",
+                "sunrise/uri": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "fig/http-message-util": "1.1.3",
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpunit/phpunit": "7.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "data/phrases.php"
+                ],
+                "psr-4": {
+                    "Sunrise\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anatoly Fenric",
+                    "email": "anatoly@fenric.ru",
+                    "homepage": "https://anatoly.fenric.ru/"
+                }
+            ],
+            "description": "Sunrise HTTP message",
+            "homepage": "https://github.com/sunrise-php/http-message",
+            "keywords": [
+                "fenric",
+                "http-message",
+                "psr-17",
+                "psr-7",
+                "rfc-7230",
+                "sunrise"
+            ],
+            "time": "2018-12-21T11:22:39+00:00"
+        },
+        {
+            "name": "sunrise/http-server-request",
+            "version": "v1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunrise-php/http-server-request.git",
+                "reference": "f5bb3276b36a62f48a037a52b2b7d27d82a47ef5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunrise-php/http-server-request/zipball/f5bb3276b36a62f48a037a52b2b7d27d82a47ef5",
+                "reference": "f5bb3276b36a62f48a037a52b2b7d27d82a47ef5",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0",
+                "sunrise/http-message": "^1.0",
+                "sunrise/stream": "^1.0",
+                "sunrise/uri": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpunit/phpunit": "7.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sunrise\\Http\\ServerRequest\\": "src/"
+                },
+                "files": [
+                    "functions/request_body.php",
+                    "functions/request_files.php",
+                    "functions/request_headers.php",
+                    "functions/request_http_version.php",
+                    "functions/request_method.php",
+                    "functions/request_uri.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anatoly Fenric",
+                    "email": "anatoly@fenric.ru",
+                    "homepage": "https://anatoly.fenric.ru/"
+                }
+            ],
+            "description": "Sunrise HTTP Server Request",
+            "homepage": "https://github.com/sunrise-php/http-server-request",
+            "keywords": [
+                "fenric",
+                "http-server-request",
+                "psr-17",
+                "psr-7",
+                "sunrise"
+            ],
+            "time": "2018-12-21T12:07:06+00:00"
+        },
+        {
+            "name": "sunrise/stream",
+            "version": "v1.0.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunrise-php/stream.git",
+                "reference": "b0ab080e7feb14d6c9a075b7f7b7d4032b4f7bb0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunrise-php/stream/zipball/b0ab080e7feb14d6c9a075b7f7b7d4032b4f7bb0",
+                "reference": "b0ab080e7feb14d6c9a075b7f7b7d4032b4f7bb0",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpunit/phpunit": "7.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sunrise\\Stream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anatoly Fenric",
+                    "email": "anatoly@fenric.ru",
+                    "homepage": "https://anatoly.fenric.ru/"
+                }
+            ],
+            "description": "Sunrise Stream",
+            "homepage": "https://github.com/sunrise-php/stream",
+            "keywords": [
+                "fenric",
+                "psr-17",
+                "psr-7",
+                "stream",
+                "sunrise"
+            ],
+            "time": "2018-12-21T09:54:27+00:00"
+        },
+        {
+            "name": "sunrise/uri",
+            "version": "v1.0.22",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sunrise-php/uri.git",
+                "reference": "b6c29a9c9a9bb24993862b5b5f7d5529127488c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sunrise-php/uri/zipball/b6c29a9c9a9bb24993862b5b5f7d5529127488c7",
+                "reference": "b6c29a9c9a9bb24993862b5b5f7d5529127488c7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "php-http/psr7-integration-tests": "dev-master",
+                "phpunit/phpunit": "7.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sunrise\\Uri\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anatoly Fenric",
+                    "email": "anatoly@fenric.ru",
+                    "homepage": "https://anatoly.fenric.ru/"
+                }
+            ],
+            "description": "Sunrise URI",
+            "homepage": "https://github.com/sunrise-php/uri",
+            "keywords": [
+                "fenric",
+                "psr-17",
+                "psr-7",
+                "rfc-3986",
+                "sunrise",
+                "uri"
+            ],
+            "time": "2018-12-21T09:20:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

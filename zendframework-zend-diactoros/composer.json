@@ -1,0 +1,8 @@
+{
+    "require": {
+        "zendframework/zend-diactoros": "^2.1"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

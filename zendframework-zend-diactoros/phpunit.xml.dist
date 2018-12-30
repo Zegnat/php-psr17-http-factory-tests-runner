@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="autoload.php">
+    <testsuites>
+        <testsuite name="Integration tests">
+            <directory>../vendor/http-interop/http-factory-tests/test</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="REQUEST_FACTORY" value="Zend\Diactoros\RequestFactory"/>
+        <const name="RESPONSE_FACTORY" value="Zend\Diactoros\ResponseFactory"/>
+        <const name="SERVER_REQUEST_FACTORY" value="Zend\Diactoros\ServerRequestFactory"/>
+        <const name="STREAM_FACTORY" value="Zend\Diactoros\StreamFactory"/>
+        <const name="UPLOADED_FILE_FACTORY" value="Zend\Diactoros\UploadedFileFactory"/>
+        <const name="URI_FACTORY" value="Zend\Diactoros\UriFactory"/>
+    </php>
+</phpunit>

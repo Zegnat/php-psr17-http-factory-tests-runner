@@ -1,0 +1,8 @@
+{
+    "require": {
+        "nyholm/psr7": "^1.0"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}
