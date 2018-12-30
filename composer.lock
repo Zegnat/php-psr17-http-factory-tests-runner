@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8c84f8ecc49163e10db406cb4cacd0a4",
+    "content-hash": "f5dc1773755991debcd8af1aaf2f20ab",
     "packages": [
         {
             "name": "doctrine/instantiator",
@@ -62,16 +62,16 @@
         },
         {
             "name": "http-interop/http-factory-tests",
-            "version": "0.5.0",
+            "version": "dev-stream-tell-tests",
             "source": {
                 "type": "git",
-                "url": "https://github.com/http-interop/http-factory-tests.git",
-                "reference": "3c6c62052daeb67ca7dc3e1ea1b72c0f0cc19070"
+                "url": "https://github.com/Zegnat/http-factory-tests.git",
+                "reference": "ade3a96ae88e3e8e9a4d163f92af1201bbfe6b42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/http-interop/http-factory-tests/zipball/3c6c62052daeb67ca7dc3e1ea1b72c0f0cc19070",
-                "reference": "3c6c62052daeb67ca7dc3e1ea1b72c0f0cc19070",
+                "url": "https://api.github.com/repos/Zegnat/http-factory-tests/zipball/ade3a96ae88e3e8e9a4d163f92af1201bbfe6b42",
+                "reference": "ade3a96ae88e3e8e9a4d163f92af1201bbfe6b42",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,6 @@
                     "Interop\\Http\\Factory\\": "test/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -102,7 +101,10 @@
                 "psr-7",
                 "test"
             ],
-            "time": "2018-07-31T18:30:29+00:00"
+            "support": {
+                "source": "https://github.com/Zegnat/http-factory-tests/tree/stream-tell-tests"
+            },
+            "time": "2018-12-30T20:08:32+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1623,7 +1625,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "http-interop/http-factory-tests": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
