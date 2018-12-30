@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b33f637e60f700b23b8f9cb7b26ea3e3",
+    "content-hash": "743274f1aef432a3f36ed3209d3f5dbc",
     "packages": [
         {
             "name": "chillerlan/php-httpinterface",
@@ -370,11 +370,11 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "stability-flags": {
         "chillerlan/php-httpinterface": 20
     },
-    "prefer-stable": false,
+    "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": []

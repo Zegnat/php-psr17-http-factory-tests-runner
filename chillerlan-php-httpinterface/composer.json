@@ -2,6 +2,8 @@
     "require": {
         "chillerlan/php-httpinterface": "dev-master"
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "config": {
         "vendor-dir": ""
     }
