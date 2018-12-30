@@ -1,0 +1,9 @@
+{
+    "require": {
+        "bulldog/http-factory": "^1.0",
+        "zendframework/zend-diactoros": "^2.1"
+    },
+    "config": {
+        "vendor-dir": ""
+    }
+}

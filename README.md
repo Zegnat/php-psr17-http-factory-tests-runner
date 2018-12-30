@@ -1,6 +1,6 @@
 # Are PSR-17 Implementations Interoperable?
 
-This repository will grab [all known psr/http-factory providers](https://packagist.org/providers/psr/http-factory-implementation) and run [the global unit tests](https://github.com/http-interop/http-factory-tests) for all of them.
+This repository will grab [all known psr/http-factory providers](https://packagist.org/providers/psr/http-factory-implementation) (& [these](https://packagist.org/providers/psr/http-factory)) and run [the global unit tests](https://github.com/http-interop/http-factory-tests) for all of them.
 
 ## How to run the tests?
 
@@ -20,4 +20,5 @@ The same is true for testing, where the root test script is set to run PHPUnit f
 
 * berlioz/http-message does not have a stable release. Using `dev-develop`.
 * chillerlan/php-httpinterface does not include factories in its latest stable release, no matter what Packagist might make you think. Using `dev-develop`.
-* tuupola/http-factory requires external PSR-7 implementations. It states support for zendframework/zend-diactoros, slim/slim, nyholm/psr7, and guzzle/psr7. It is installed once per support PSR-7 implementation. Using guzzlehttp/psr7 instead of guzzle/psr7.
+* tuupola/http-factory and bulldog/http-factory require external PSR-7 implementations. They are installed once per supported PSR-7 implementation.
+* slim/http is currently not included as it requires special instantiation of the factories.

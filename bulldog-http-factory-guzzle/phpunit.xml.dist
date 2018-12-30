@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="autoload.php">
+    <testsuites>
+        <testsuite name="Integration tests">
+            <directory>../vendor/http-interop/http-factory-tests/test</directory>
+        </testsuite>
+    </testsuites>
+    <php>
+        <const name="REQUEST_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\RequestFactory"/>
+        <const name="RESPONSE_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\ResponseFactory"/>
+        <const name="SERVER_REQUEST_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\ServerRequestFactory"/>
+        <const name="STREAM_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\StreamFactory"/>
+        <const name="UPLOADED_FILE_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\UploadedFileFactory"/>
+        <const name="URI_FACTORY" value="Bulldog\HttpFactory\Factories\Guzzle\UriFactory"/>
+    </php>
+</phpunit>

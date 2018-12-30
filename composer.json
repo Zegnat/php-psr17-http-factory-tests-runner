@@ -6,48 +6,54 @@
     "scripts": {
         "test": [
             "phpunit -c berlioz-http-message/phpunit.xml.dist || true",
-            "phpunit -c chiron-http/phpunit.xml.dist || true",
+            "phpunit -c bulldog-http-factory-guzzle/phpunit.xml.dist || true",
+            "phpunit -c bulldog-http-factory-zend-diactoros/phpunit.xml.dist || true",
             "phpunit -c chillerlan-php-httpinterface/phpunit.xml.dist || true",
+            "phpunit -c chiron-http/phpunit.xml.dist || true",
             "phpunit -c http-interop-http-factory-diactoros/phpunit.xml.dist || true",
             "phpunit -c http-interop-http-factory-guzzle/phpunit.xml.dist || true",
             "phpunit -c http-interop-http-factory-slim/phpunit.xml.dist || true",
             "phpunit -c nyholm-psr7/phpunit.xml.dist || true",
             "phpunit -c sunrise-http-factory/phpunit.xml.dist || true",
-            "phpunit -c zendframework-zend-diactoros/phpunit.xml.dist || true",
-            "phpunit -c tuupola-http-factory-zend-diactoros || true",
-            "phpunit -c tuupola-http-factory-slim || true",
-            "phpunit -c tuupola-http-factory-nyholm || true",
-            "phpunit -c tuupola-http-factory-guzzle || true"
+            "phpunit -c tuupola-http-factory-guzzle/phpunit.xml.dist || true",
+            "phpunit -c tuupola-http-factory-nyholm/phpunit.xml.dist || true",
+            "phpunit -c tuupola-http-factory-slim/phpunit.xml.dist || true",
+            "phpunit -c tuupola-http-factory-zend-diactoros/phpunit.xml.dist || true",
+            "phpunit -c zendframework-zend-diactoros/phpunit.xml.dist || true"
         ],
         "post-install-cmd": [
             "@composer install --no-dev --no-suggest --working-dir berlioz-http-message",
-            "@composer install --no-dev --no-suggest --working-dir chiron-http",
-            "@composer install --no-dev --no-suggest --working-dir sunrise-http-factory",
+            "@composer install --no-dev --no-suggest --working-dir bulldog-http-factory-guzzle",
+            "@composer install --no-dev --no-suggest --working-dir bulldog-http-factory-zend-diactoros",
             "@composer install --no-dev --no-suggest --working-dir chillerlan-php-httpinterface",
+            "@composer install --no-dev --no-suggest --working-dir chiron-http",
             "@composer install --no-dev --no-suggest --working-dir http-interop-http-factory-diactoros",
             "@composer install --no-dev --no-suggest --working-dir http-interop-http-factory-guzzle",
             "@composer install --no-dev --no-suggest --working-dir http-interop-http-factory-slim",
             "@composer install --no-dev --no-suggest --working-dir nyholm-psr7",
-            "@composer install --no-dev --no-suggest --working-dir zendframework-zend-diactoros",
-            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
-            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
+            "@composer install --no-dev --no-suggest --working-dir sunrise-http-factory",
+            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle",
             "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-nyholm",
-            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle"
+            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
+            "@composer install --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
+            "@composer install --no-dev --no-suggest --working-dir zendframework-zend-diactoros"
         ],
         "post-update-cmd": [
             "@composer update --no-dev --no-suggest --working-dir berlioz-http-message",
-            "@composer update --no-dev --no-suggest --working-dir chiron-http",
-            "@composer update --no-dev --no-suggest --working-dir sunrise-http-factory",
+            "@composer update --no-dev --no-suggest --working-dir bulldog-http-factory-guzzle",
+            "@composer update --no-dev --no-suggest --working-dir bulldog-http-factory-zend-diactoros",
             "@composer update --no-dev --no-suggest --working-dir chillerlan-php-httpinterface",
+            "@composer update --no-dev --no-suggest --working-dir chiron-http",
             "@composer update --no-dev --no-suggest --working-dir http-interop-http-factory-diactoros",
             "@composer update --no-dev --no-suggest --working-dir http-interop-http-factory-guzzle",
             "@composer update --no-dev --no-suggest --working-dir http-interop-http-factory-slim",
             "@composer update --no-dev --no-suggest --working-dir nyholm-psr7",
-            "@composer update --no-dev --no-suggest --working-dir zendframework-zend-diactoros",
-            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
-            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
+            "@composer update --no-dev --no-suggest --working-dir sunrise-http-factory",
+            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle",
             "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-nyholm",
-            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-guzzle"
+            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-slim",
+            "@composer update --no-dev --no-suggest --working-dir tuupola-http-factory-zend-diactoros",
+            "@composer update --no-dev --no-suggest --working-dir zendframework-zend-diactoros"
         ]
     }
 }

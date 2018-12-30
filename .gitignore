@@ -64,3 +64,13 @@ tuupola-http-factory-zend-diactoros/*
 !tuupola-http-factory-zend-diactoros/composer.json
 !tuupola-http-factory-zend-diactoros/composer.lock
 !tuupola-http-factory-zend-diactoros/phpunit.xml.dist
+
+bulldog-http-factory-guzzle/*
+!bulldog-http-factory-guzzle/composer.json
+!bulldog-http-factory-guzzle/composer.lock
+!bulldog-http-factory-guzzle/phpunit.xml.dist
+
+bulldog-http-factory-zend-diactoros/*
+!bulldog-http-factory-zend-diactoros/composer.json
+!bulldog-http-factory-zend-diactoros/composer.lock
+!bulldog-http-factory-zend-diactoros/phpunit.xml.dist
