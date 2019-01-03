@@ -86,8 +86,8 @@ The same is true for testing, where the root test script is set to run PHPUnit f
 
 ### slim/psr7
 
-.....................................EE..
-Tests: 41, Assertions: 98, Errors: 2.
+    ......................................I.EE..EE...EE..
+    Tests: 53, Assertions: 110, Errors: 6, Incomplete: 1.
 
 ### sunrise/http-factory
 
