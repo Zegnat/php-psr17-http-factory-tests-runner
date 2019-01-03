@@ -7,7 +7,7 @@
     ],
     "require": {
         "phpunit/phpunit": "^7.5",
-        "http-interop/http-factory-tests": "dev-stream-tell-tests"
+        "http-interop/http-factory-tests": "dev-stream-cursors"
     },
     "scripts": {
         "test": [

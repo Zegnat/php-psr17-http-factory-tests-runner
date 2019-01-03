@@ -30,90 +30,90 @@ The same is true for testing, where the root test script is set to run PHPUnit f
 
 ### aidphp/http
 
-......S................SSSSSS.....SSSSSSS
-Tests: 41, Assertions: 68, Skipped: 14.
+    ......S................SSSSSS.....SSSSSSSSSSSSSSSSSSS
+    Tests: 53, Assertions: 68, Skipped: 26.
 
 ### berlioz/http-message
 
-......EEEEE...........................E.F
-Tests: 41, Assertions: 93, Errors: 6, Failures: 1.
+    ......EEEEE...........................I...EEEEF...E.F
+    Tests: 53, Assertions: 105, Errors: 10, Failures: 2, Incomplete: 1.
 
 ### bulldog/http-factory (Guzzle)
 
-.....................................EE..
-Tests: 41, Assertions: 98, Errors: 2.
+    ......................................I.FF..FF...EE..
+    Tests: 53, Assertions: 114, Errors: 2, Failures: 4, Incomplete: 1.
 
 ### bulldog/http-factory (Diactoros)
 
-..................................EE.EE..
-Tests: 41, Assertions: 94, Errors: 4.
+    ..................................EEEEIEEEEEEEE..EE..
+    Tests: 53, Assertions: 97, Errors: 14, Incomplete: 1.
 
 ### chillerlan/php-httpinterface
 
-.....................................EE..
-Tests: 41, Assertions: 98, Errors: 2.
+    ......................................I.EE..EE...EE..
+    Tests: 53, Assertions: 110, Errors: 6, Incomplete: 1.
 
 ### chiron/http
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I..............
+    Tests: 53, Assertions: 122, Incomplete: 1.
 
 ### http-interop/http-factory-diactoros
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### http-interop/http-factory-guzzle
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.....FF.......
+    Tests: 53, Assertions: 122, Failures: 2, Incomplete: 1.
 
 ### http-interop/http-factory-slim
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### nyholm/psr7
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I..............
+    Tests: 53, Assertions: 122, Incomplete: 1.
 
 ### rancoud/http
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.....E........
+    Tests: 53, Assertions: 121, Errors: 1, Incomplete: 1.
 
 ### sunrise/http-factory
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.....FF.......
+    Tests: 53, Assertions: 122, Failures: 2, Incomplete: 1.
 
 ### tuupola/http-factory (Guzzle)
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### tuupola/http-factory (Nyholm)
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### tuupola/http-factory (Slim)
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### tuupola/http-factory (Diactoros)
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.EE..EE.......
+    Tests: 53, Assertions: 118, Errors: 4, Incomplete: 1.
 
 ### viserio/http-factory
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.FFFFFF...
+Exited on fatal error.
 
 ### zendframework/zend-diactoros
 
-.........................................
-Tests: 41, Assertions: 106
+    ......................................I.FF...........
+    Tests: 53, Assertions: 122, Failures: 2, Incomplete: 1.
