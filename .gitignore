@@ -55,6 +55,11 @@ rancoud-http/*
 !rancoud-http/composer.lock
 !rancoud-http/phpunit.xml.dist
 
+slim-psr7/*
+!slim-psr7/composer.json
+!slim-psr7/composer.lock
+!slim-psr7/phpunit.xml.dist
+
 sunrise-http-factory/*
 !sunrise-http-factory/composer.json
 !sunrise-http-factory/composer.lock
