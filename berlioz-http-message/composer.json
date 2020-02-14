@@ -1,9 +1,7 @@
 {
     "require": {
-        "berlioz/http-message": "dev-develop"
+        "berlioz/http-message": "^1.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "config": {
         "vendor-dir": ""
     }
